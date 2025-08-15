@@ -103,7 +103,7 @@ async def on_ready():
             Colorate.Vertical(
                 Colors.green_to_yellow,
             f"""[=]-------------------------------------------------------------------------------------------[=]
-[  SHYCORD  VERSION  4  |  MADED  BY  :-  2svy  |  LOGINED  AS  :-  {savvy.user.name}  ]
+[  SHYCORD  VERSION  4  |  MADED  BY  :-  venom.json  |  LOGINED  AS  :-  {savvy.user.name}  ]
 [=]-------------------------------------------------------------------------------------------[=]
 """,
                 1,
@@ -360,7 +360,7 @@ async def help(ctx, helpcategory="none"):
 > 🍑 **NSFW SECTION** :- `.help nsfw`
 
 > 🍬 **SET PREFIX** :- `.prefix <prefix>`
-> 🎗️ **DEVELOPER** :- `2svy`
+> 🎗️ **DEVELOPER** :- `venom.json`
 """
 
     elif "config" in helpcategory:
@@ -392,18 +392,18 @@ async def help(ctx, helpcategory="none"):
     elif "crypto" in helpcategory:
         description = """👑 **Crypto Section** 👑
 
-<:crypto:1317032618222682142> **Send Ltc** :- `.send <addy> <amount>`
-<:crypto:1317032618222682142> **Check Balance** :- `.bal <addy>`
-<:crypto:1317032618222682142> **Check Mybal** :- `.mybal`
-<:crypto:1317032618222682142> **Second Check Mybal** :- `.mybal2`
-<:crypto:1317032618222682142> **Ltc Addy** :- `.addy`
-<:crypto:1317032618222682142> **Second Ltc Addy** :- `.addy2`
-<:crypto:1317032618222682142> **Ltc Custom Qr** :- `.ltcqr <addy> <usd_amt>`
-<:crypto:1317032618222682142> **Ltc Price In Usd** :- `.ltc`
-<:crypto:1317032618222682142> **Sol Price In Usd** :- `.sol`
-<:crypto:1317032618222682142> **Btc Price In Usd** :- `.btc`
-<:crypto:1317032618222682142> **Usdt Price In Usd** :- `.usdt`
-<:crypto:1317032618222682142> **Xrp Price In Usd** :- `.xrp`
+💰 **Send Ltc** :- `.send <addy> <amount>`
+💰 **Check Balance** :- `.bal <addy>`
+💰 **Check Mybal** :- `.mybal`
+💰 **Second Check Mybal** :- `.mybal2`
+💰 **Ltc Addy** :- `.addy`
+💰 **Second Ltc Addy** :- `.addy2`
+💰 **Ltc Custom Qr** :- `.ltcqr <addy> <usd_amt>`
+💰 **Ltc Price In Usd** :- `.ltc`
+💰 **Sol Price In Usd** :- `.sol`
+💰 **Btc Price In Usd** :- `.btc`
+💰 **Usdt Price In Usd** :- `.usdt`
+💰 **Xrp Price In Usd** :- `.xrp`
 """
 
     elif "msg" in helpcategory:
