@@ -103,7 +103,7 @@ async def on_ready():
             Colorate.Vertical(
                 Colors.green_to_yellow,
             f"""[=]-------------------------------------------------------------------------------------------[=]
-[  SHYCORD  VERSION  4  |  MADED  BY  :-  venom.json  |  LOGINED  AS  :-  {savvy.user.name}  ]
+[  SHYCORD  VERSION  1  |  MADED  BY  :-  venom.json  |  LOGINED  AS  :-  {savvy.user.name}  ]
 [=]-------------------------------------------------------------------------------------------[=]
 """,
                 1,
