@@ -69,7 +69,7 @@ User_Id = config.get("User_Id")
 SERVER_Link = config.get("SERVER_Link")
 #===================================
 
-savvy = commands.Bot(description='SELFBOT CREATED BY savvy',
+savvy = commands.Bot(description='SELFBOT CREATED BY venom.json',
                            command_prefix=prefix,
                            self_bot=True,
                            intents=intents)
