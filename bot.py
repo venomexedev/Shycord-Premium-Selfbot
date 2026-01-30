@@ -69,7 +69,7 @@ User_Id = config.get("User_Id")
 SERVER_Link = config.get("SERVER_Link")
 #===================================
 
-savvy = commands.Bot(description='SELFBOT CREATED BY venom.json',
+savvy = commands.Bot(description='SELFBOT CREATED BY Zenith',
                            command_prefix=prefix,
                            self_bot=True,
                            intents=intents)
@@ -103,7 +103,7 @@ async def on_ready():
             Colorate.Vertical(
                 Colors.green_to_yellow,
             f"""[=]-------------------------------------------------------------------------------------------[=]
-[  SHYCORD  VERSION  1  |  MADED  BY  :-  venom.json  |  LOGINED  AS  :-  {savvy.user.name}  ]
+[  SHYCORD  VERSION  1  |  MADED  BY  :-  Zenith  |  LOGINED  AS  :-  {savvy.user.name}  ]
 [=]-------------------------------------------------------------------------------------------[=]
 """,
                 1,
@@ -360,7 +360,7 @@ async def help(ctx, helpcategory="none"):
 > 🍑 **NSFW SECTION** :- `.help nsfw`
 
 > 🍬 **SET PREFIX** :- `.prefix <prefix>`
-> 🎗️ **DEVELOPER** :- `venom.json`
+> 🎗️ **DEVELOPER** :- `zeniththecoder`
 """
 
     elif "config" in helpcategory:
